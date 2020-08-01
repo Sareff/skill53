@@ -1,0 +1,12 @@
+Boto3:
+  Region: eu-central-1
+Server:
+  Address: 0.0.0.0
+  Port: 8080
+DynamoDB:
+  Region: eu-central-1
+  TableName: table-web-53
+  PrimaryPartitionKey: recordId
+Redis:
+  Host: web-53.px1ikb.ng.0001.euc1.cache.amazonaws.com
+  Port: 6379
