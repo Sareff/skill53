@@ -1,7 +1,0 @@
-#!/bin/bash
-yum install git python3 -y
-mkdir /opt/web-53
-cd /opt/web-53
-aws s3 sync s3://rzlab/web53 . --delete
-pip3 install --user .
-python3 server.py

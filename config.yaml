@@ -1,0 +1,19 @@
+AWS:
+  Region: eu-central-1
+Server:
+  Host: 0.0.0.0
+  Port: 8080
+DynamoDB:
+  Region: eu-central-1
+  TableName: test-web-53
+  PrimaryPartitionKey: recordId
+Redis:
+  Host: web-53.px1ikb.ng.0001.euc1.cache.amazonaws.com
+  Port: 6379
+DB:
+  Host: database-1.aaaaa.eu-central-1.rds.amazonaws.com
+  Port: 3306
+  User: admin
+  Pass: Aa123456
+  DBName: db01
+  Table: testweb53
