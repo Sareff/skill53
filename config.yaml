@@ -11,7 +11,7 @@ Redis:
   Host: web-53.px1ikb.ng.0001.euc1.cache.amazonaws.com
   Port: 6379
 DB:
-  Host: database-1.aaaaa.eu-central-1.rds.amazonaws.com
+  Host: database-1.c2empzdo10xn.eu-central-1.rds.amazonaws.com
   Port: 3306
   User: admin
   Pass: Aa123456
